@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour & Travel Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script defer src="main.js"></script>
+</head>
+<body>
+
+  <!-- Header sections start -->
+  <header>
+
+		<div class="fas fa-bars" id="menu-bar">	</div>
+
+		<a href="#" class="logo">
+			<span>T</span>
+			ravel
+		</a>
+
+		<nav class="navbar">
+			<a href="#home">Home</a>
+			<a href="#book">Book</a>
+			<a href="#packages">Packages</a>
+			<a href="#services">Services</a>
+			<a href="#gallery">Gallery</a>
+			<a href="#review">Review</a>
+			<a href="#contact">Contact</a>
+		</nav>
+
+		<div class="icon">
+			<i class="fas fa-search" id="search-btn"></i>
+			<i class="fas fa-user" id="login-btn"></i>
+		</div>
+
+		<form action="" class="search-bar-container">
+			<input type="search" id="search-bar" placeholder="Search">
+			<label for="search-bar" class="fas fa-search"></label>
+		</form>
+	</header>
+
+	<!-- Login form container -->
+
+	<div class="login-form-container">
+
+		<i class="fas fa-time" id="form-close"></i>
+
+		<form action="">
+			<h3>Login</h3>
+			<input type="email" class="box" placeholder="Enter your email">
+			<input type="password" class="box" placeholder="Enter your password">
+			<input type="submit" value="login now" class="btn">
+			<input type="checkbox" id="remember">
+			<label for="remember">Remember me</label>
+			<p>Forget password? <a href="#">Click Here</a></p>
+			<p>Don't have an account? <a href="#">Register now</a></p>
+		</form>
+	</div>
+
+	<!-- Home section start -->
+
+	<section class="home" id="home">
+
+		<div class="content">
+			<h3>Adventure is wortwhile</h3>
+			<p>Discover new places with us, adventure awaits</p>
+			<a href="#" class="btn">Discover more</a>
+		</div>
+
+		<div class="controls">
+			<span class="vid-btn active" data-src="media/video4.mp4"></span>
+			<span class="vid-btn" data-src="media/video1.mp4"></span>
+			<span class="vid-btn" data-src="media/video5.mp4"></span>
+
+		</div>
+
+		<div class="video-container">
+			<video src="media/video4.mp4" id="video-slider" loop autoplay muted></video>
+		</div>
+
+	</section>
+
+	<!-- Book section start -->
+
+	<section class="book" id="book">
+
+		<h1 class="heading">
+			<span>B</span>
+			<span>O</span>
+			<span>O</span>
+			<span>K</span>
+			<span class="space"></span>
+			<span>N</span>
+			<span>O</span>
+			<span>W</span>
+		</h1>
+
+		<div class="row">
+
+			<div class="image">
+				<img src="media/3369736.jpg" alt="">
+			</div>
+
+			<form action="">
+				<div class="inputBox">
+					<h3>Where to</h3>
+					<input type="text" placeholder="Place name">
+				</div>
+				<div class="inputBox">
+					<h3>How many</h3>
+					<input type="number" placeholder="Number of guests">
+				</div>
+				<div class="inputBox">
+					<h3>Arrivals</h3>
+					<input type="date">
+				</div>
+				<div class="inputBox">
+					<h3>Leaving</h3>
+					<input type="date">
+				</div>
+				<input type="submit" class="btn" value="book now">
+			</form>
+
+		</div>
+
+	</section>
+
+	<!-- Packages section start -->
+
+	<section class="packages" id="packages">
+
+		<h1 class="heading">
+			<span>P</span>
+			<span>A</span>
+			<span>C</span>
+			<span>K</span>
+			<span>A</span>
+			<span>G</span>
+			<span>E</span>
+			<span>S</span>
+		</h1>
+
+		<div class="box-container">
+			<div class="box">
+					<img src="media/mumbai.jpg" alt="Mumbai">
+					<div class="content">
+							<h3> <i class="fas fa-map-marker-alt"></i> Mumbai </h3>
+							<p>Discover the vibrant magic of Mumbai, the City of Dreams! Embark on an unforgettable journey to this iconic metropolis, where tradition and modernity intertwine in a fascinating cultural dance.</p>
+							<div class="stars">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="far fa-star"></i>
+							</div>
+							<div class="price"> 90€ <span>110€</span> </div>
+							<a href="#" class="btn"> Book now </a>
+					</div>
+			</div>
+	
+			<div class="box">
+					<img src="media/sidney.jpg" alt="Mumbai">
+					<div class="content">
+							<h3> <i class="fas fa-map-marker-alt"></i> Sydney </h3>
+							<p>Discover the Charm of Sydney: Beaches, Culture, and Adventure in Australia. An Unforgettable Experience Awaits You!</p>
+							<div class="stars">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="far fa-star"></i>
+							</div>
+							<div class="price"> 90€ <span>110€</span> </div>
+							<a href="#" class="btn"> Book now </a>
+					</div>
+			</div>
+	
+			<div class="box">
+					<img src="media/hawaii.jpg" alt="Mumbai">
+					<div class="content">
+							<h3> <i class="fas fa-map-marker-alt"></i> Hawaii </h3>
+							<p>Embark on a Tropical Paradise in Hawaii: Dreamy Beaches, Lush Nature, and Polynesian Culture Await You. Experience the Magic of Hawaii!</p>
+							<div class="stars">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="far fa-star"></i>
+							</div>
+							<div class="price"> 90€ <span>110€</span> </div>
+							<a href="#" class="btn"> Book now </a>
+					</div>
+			</div>
+	
+			<div class="box">
+					<img src="media/paris.jpg" alt="Mumbai">
+					<div class="content">
+							<h3> <i class="fas fa-map-marker-alt"></i> Paris </h3>
+							<p>City of Romance and Art: Let Yourself Be Captivated by the Majesty of the Eiffel Tower, Charming Cafés, and Fascinating Museums in This Magical City.</p>
+							<div class="stars">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="far fa-star"></i>
+							</div>
+							<div class="price"> 90€ <span>110€</span> </div>
+							<a href="#" class="btn"> Book now </a>
+					</div>
+			</div>
+	
+			<div class="box">
+					<img src="media/kyoto.jpg" alt="Mumbai">
+					<div class="content">
+							<h3> <i class="fas fa-map-marker-alt"></i> Kyoto </h3>
+							<p>Treasures of Tradition in Japan: Admire Magnificent Temples, Stroll Through Tranquil Zen Gardens, and Savor Delicious Japanese Cuisine in This Historic City.</p>
+							<div class="stars">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="far fa-star"></i>
+							</div>
+							<div class="price"> 90€ <span>110€</span> </div>
+							<a href="#" class="btn"> Book now </a>
+					</div>
+			</div>
+	
+			<div class="box">
+					<img src="media/egipto.jpg" alt="Mumbai">
+					<div class="content">
+							<h3> <i class="fas fa-map-marker-alt"></i> Egypt </h3>
+							<p>Immerse Yourself in the Grand History of the Pharaohs, Explore Mysterious Pyramids, Sail the Nile River, and Admire the Majesty of Archaeological Treasures in a Unique Journey.</p>
+							<div class="stars">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="far fa-star"></i>
+							</div>
+							<div class="price"> 90€ <span>110€</span> </div>
+							<a href="#" class="btn"> Book now </a>
+					</div>
+			</div>
+	</div>
+
+	</section>
+
+<!-- Services section start -->
+
+	<section class="services" id="services">
+
+		<h1 class="heading">
+			<span>S</span>
+			<span>E</span>
+			<span>R</span>
+			<span>V</span>
+			<span>I</span>
+			<span>C</span>
+			<span>E</span>
+			<span>S</span>
+		</h1>
+
+		<div class="box-container">
+
+			<div class="box">
+				<i class="fas fa-hotel"></i>
+				<h3>Affordable Hotels</h3>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nihil dicta maxime molestias cum earum quis corporis, id libero veniam quam. Iusto quos et repellendus reprehenderit repudiandae eos tenetur dolorem!</p>
+			</div>
+
+			<div class="box">
+				<i class="fas fa-utensils"></i>
+				<h3>Food and Drinks</h3>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nihil dicta maxime molestias cum earum quis corporis, id libero veniam quam. Iusto quos et repellendus reprehenderit repudiandae eos tenetur dolorem!</p>
+			</div>
+
+			<div class="box">
+				<i class="fas fa-bullhorn"></i>
+				<h3>Safty Guide</h3>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nihil dicta maxime molestias cum earum quis corporis, id libero veniam quam. Iusto quos et repellendus reprehenderit repudiandae eos tenetur dolorem!</p>
+			</div>
+
+			<div class="box">
+				<i class="fas fa-globe-asia"></i>
+				<h3>Around the World</h3>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nihil dicta maxime molestias cum earum quis corporis, id libero veniam quam. Iusto quos et repellendus reprehenderit repudiandae eos tenetur dolorem!</p>
+			</div>
+
+			<div class="box">
+				<i class="fas fa-plane"></i>
+				<h3>Fastest Travel</h3>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nihil dicta maxime molestias cum earum quis corporis, id libero veniam quam. Iusto quos et repellendus reprehenderit repudiandae eos tenetur dolorem!</p>
+			</div>
+
+			<div class="box">
+				<i class="fas fa-hiking"></i>
+				<h3>Adventures</h3>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nihil dicta maxime molestias cum earum quis corporis, id libero veniam quam. Iusto quos et repellendus reprehenderit repudiandae eos tenetur dolorem!</p>
+			</div>
+
+		</div>
+
+	</section>
+
+</body>
+</html>
