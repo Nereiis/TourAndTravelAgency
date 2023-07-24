@@ -44,5 +44,5 @@ videoBtn.forEach(btn => {
 
         let src = btn.getAttribute('data-src');
         document.querySelector('#video-slider').src = src;
-    })
-})
+    });
+});
